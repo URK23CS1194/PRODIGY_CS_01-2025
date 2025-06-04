@@ -45,4 +45,4 @@ tk.Button(frame, text="Process", command=process_text_cipher, bg="blue", fg="whi
 tk.Label(frame, text="Output:", bg="lightblue").pack()
 output_text = tk.Text(frame, height=4, width=50, bg="lightyellow")
 output_text.pack()
-win.mainloop
+win.mainloop()
